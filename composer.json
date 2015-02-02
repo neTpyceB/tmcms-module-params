@@ -1,8 +1,8 @@
 {
-  "name": "neTpyceB/TMCms-module-rating",
+  "name": "neTpyceB/TMCms-module-params",
   "type": "library",
-  "description": "Module Rating for TMCms",
-  "keywords": ["module", "rating"],
+  "description": "Module Parameters for TMCms",
+  "keywords": ["module", "params"],
   "homepage": "http://devp.lv/",
   "license": "proprietary",
   "authors": [

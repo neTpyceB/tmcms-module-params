@@ -11,6 +11,12 @@ class ModuleParams implements IModule {
 	/** @var $this */
 	private static $instance;
 
+	public static $tables = [
+		'params' => 'm_params',
+		'options' => 'm_params_options',
+		'relations' => 'm_params_relations',
+	];
+
 	public static function getInstance() {
 		if (!self::$instance) self::$instance = new self;
 		return self::$instance;
